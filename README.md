@@ -1,182 +1,122 @@
-# 🚀 Ajay Kumar's 3D Portfolio
+<div align="center">
+  <img src="./public/desktop.png" alt="Portfolio Preview" width="100%"/>
 
-![Portfolio Preview](preview.png)
+  <br />
+  <br />
 
-## ✨ [Live Demo](https://your-portfolio-url.com)
+  # 🌟 Ajay Kumar | Interactive 3D Developer Portfolio
 
-An immersive, interactive 3D portfolio built with React, Three.js, and Tailwind CSS showcasing my projects, skills, and professional journey through engaging 3D elements and smooth animations.
+  **A maximalist, high-performance 3D portfolio showcasing modern web engineering.**
 
----
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+  [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
+  [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+  [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-## 🌟 Features
-
-- **Interactive 3D Models** - Engage with responsive 3D elements powered by Three.js
-- **Modern UI/UX** - Clean, intuitive interface with Tailwind CSS styling
-- **Responsive Design** - Seamless experience across all devices and screen sizes
-- **Project Showcase** - Highlighted projects with detailed descriptions and links
-- **Dynamic Content** - Easily updatable content via centralized data files
-- **Performance Optimized** - Fast loading times with optimized 3D rendering
-- **Email Integration** - Direct contact through EmailJS integration
-- **Smooth Animations** - Fluid transitions powered by Framer Motion
-
----
-
-## 💻 Tech Stack
-
-<table>
-  <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50"/><br />React</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" width="50" height="50"/><br />Three.js</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50" height="50"/><br />Tailwind CSS</td>
-    <td align="center"><img src="https://vitejs.dev/logo.svg" width="50" height="50"/><br />Vite</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/><br />JavaScript</td>
-    <td align="center"><img src="https://www.emailjs.com/logo.png" width="50" height="50"/><br />EmailJS</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/><br />HTML5</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/><br />CSS3</td>
-  </tr>
-</table>
+  <p align="center">
+    <a href="https://ajayku267.github.io/Portfolio/">View Live Site</a>
+    ·
+    <a href="https://github.com/ajayku267/Portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ajayku267/Portfolio/issues">Request Feature</a>
+  </p>
+</div>
 
 ---
 
-## 🔍 Featured Projects
+## 🚀 Overview
 
-### 📈 Stock Vision
-A stock market prediction application leveraging AI models to help users analyze trends and make data-driven investment decisions.
-- **Tech:** Python, Machine Learning, React
-- [View Code](https://github.com/ajayku267/Stock.vision)
+This repository houses the source code for my personal developer portfolio. Moving beyond traditional minimalist designs, this project embraces a **"Maximalist Bento Box"** aesthetic—combining interactive WebGL particles, glassmorphism, procedural UI sounds, and cinematic Framer Motion animations to create a memorable, high-energy user experience.
 
-### ☁️ Mausam
-A weather forecasting app providing real-time updates on temperature, humidity, and conditions with a smooth, intuitive interface.
-- **Tech:** React.js, OpenWeather API
-- [View Code](https://github.com/ajayku267/Weather-Website)
+## ✨ Key Technical Features
 
-### 👕 Digital Wardrobe Manager
-An AI-driven fashion assistant that helps users manage their wardrobe and suggests outfits based on user-owned clothes.
-- **Tech:** React.js, Gen AI, API Integration
-- *Project in development*
+- 🧊 **Glassmorphic UI Systems** - Heavily stylized `bento-glass` components with translucent backdrop filters and dynamic lighting glare on hover.
+- 🌌 **WebGL Particle Engine** - A responsive, full-screen particle universe utilizing `tsparticles` that reacts fluidly to DOM events and cursor positioning.
+- 🌐 **Interactive 3D Tech Sphere** - An interactive, rotating tag cloud of technologies engineered using `@react-three/fiber` and `@react-three/drei`.
+- 🧲 **Magnetic Elements & Spline physics** - Custom hooks to create physical, magnetic pull effects on CTA buttons using Framer Motion springs.
+- 🔊 **Procedural Audio Hooks** - Integrated `use-sound` for futuristic, tactile feedback during theme toggles and button interactions.
+- 🎬 **Cinematic Page Orchestration** - Complex staggered text reveals, infinite hardware-accelerated marquees, and buttery smooth layout transitions.
 
----
+## 🛠️ Architecture & Technologies
 
-## 🚀 Getting Started
+### Frontend Ecosystem
+- **Framework**: [React 18](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + Custom Vanilla CSS utility classes
+- **Animation Strategy**: [Framer Motion](https://www.framer.com/motion/) for DOM routing/transitions, `react-tilt` for 3D card manipulation.
 
-### Prerequisites
-- Node.js (v14.0.0 or later)
-- npm or yarn
+### 3D & WebGL Subsystem
+- **Core Library**: [Three.js](https://threejs.org/)
+- **React Abstraction**: `@react-three/fiber`
+- **Helpers**: `@react-three/drei`
 
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/3d-portfolio.git
-   cd 3d-portfolio
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Configure EmailJS for the contact form
-   ```javascript
-   // Update these in src/components/Contact.jsx
-   const EMAIL_SERVICE_ID = 'your_service_id';
-   const EMAIL_TEMPLATE_ID = 'your_template_id';
-   const EMAIL_PUBLIC_KEY = 'your_public_key';
-   ```
-
-4. Start the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-5. Build for production
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
+### Integrations
+- **Contact Form**: [EmailJS](https://www.emailjs.com/) for serverless form handling.
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Local Development
 
+To run this project locally, ensure you have **Node.js (v16+)** installed.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ajayku267/Portfolio.git
+cd Portfolio
 ```
-3d-portfolio/
-├── public/                # Static assets
-├── src/
-│   ├── assets/            # Images, icons, SVGs
-│   │   └── projects/      # Project images
-│   ├── components/        # React components
-│   │   └── canvas/        # Three.js 3D components
-│   ├── constants/         # Data files
-│   ├── hoc/               # Higher-order components
-│   ├── utils/             # Utility functions
-│   ├── App.jsx            # Main app component
-│   ├── main.jsx           # Entry point
-│   └── styles.js          # Global styles
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Environment Setup
+Create a `.env` file in the root directory and inject your EmailJS credentials:
+```env
+VITE_APP_EMAILJS_SERVICE_ID="your_service_id"
+VITE_APP_EMAILJS_TEMPLATE_ID="your_template_id"
+VITE_APP_EMAILJS_PUBLIC_KEY="your_public_key"
+```
+
+### 4. Run the Development Server
+```bash
+npm run dev
+```
+
+### 5. Production Build
+```bash
+npm run build
 ```
 
 ---
 
-## 🛠️ Customization
+## 📂 Codebase Structure
 
-Want to make your own 3D portfolio? Here's how to customize this template:
-
-1. **Personal Information**: Update `src/constants/index.js` with your details
-2. **Project Images**: Add your project images to `src/assets/projects/`
-3. **3D Models**: Modify components in `src/components/canvas/`
-4. **Colors & Styling**: Adjust the theme in `src/styles.js` and TailwindCSS classes
-
----
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive and adapts to different screen sizes:
-- **Desktop**: Immersive 3D experience with all features
-- **Tablet**: Optimized layouts with maintained 3D elements
-- **Mobile**: Streamlined interface with touch-friendly controls
+```text
+src/
+├── assets/            # Static media (SVGs, WebP images, models)
+├── components/        # React UI layer
+│   └── canvas/        # Isolated Three.js WebGL context components
+├── constants/         # Centralized application data (Projects, Experience)
+├── context/           # React Context Providers (Theme, Audio)
+├── hoc/               # Higher-Order Components (e.g., SectionWrapper)
+├── utils/             # Animation variants, hardware/math helpers
+├── index.css          # Global CSS, keyframes, and glassmorphic utilities
+└── App.jsx            # Application root and layout orchestrator
+```
 
 ---
 
-## 📞 Contact
+## 📬 Contact & Links
 
-Have questions or want to connect? Reach out through:
+I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Ajay Kumar](https://linkedin.com/in/yourusername)
-- **GitHub**: [ajayku267](https://github.com/ajayku267)
+- **Email**: [ajayku267@gmail.com](mailto:ajayku267@gmail.com)
+- **LinkedIn**: [Ajay Kumar](https://www.linkedin.com/in/ajay-kumar-65712923a)
+- **GitHub**: [@ajayku267](https://github.com/ajayku267)
 
-Or use the contact form directly on the portfolio!
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
-
-- [Three.js](https://threejs.org/) for 3D graphics
-- [React Three Fiber](https://github.com/pmndrs/react-three-fiber) for React integration with Three.js
-- [TailwindCSS](https://tailwindcss.com/) for styling
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [EmailJS](https://www.emailjs.com/) for email functionality
-
----
-
-<p align="center">
-  Made with ❤️ by Ajay Kumar
-</p>
+<div align="center">
+  <br/>
+  <i>Engineered with precision and ❤️ by Ajay Kumar.</i>
+</div>
